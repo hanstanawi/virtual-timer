@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <title>Virtual Timer</title>
+</head>
+<body>
+    <header>
+        <h1>JS Virtual Timer</h1>
+    </header>
+    <div class="timer">
+        <div class="controls">
+            <input type="text" id="duration" value="3">
+            <div>
+                <button id="start"><i class="fas fa-play"></i></button>
+                <button id="pause"><i class="fas fa-pause"></i></button>
+            </div>
+        </div>
+        
+        <svg class="dial">
+            <circle 
+            r="190" 
+            cx="200" 
+            cy="200" 
+            fill="transparent"
+            stroke="#0e153a"
+            stroke-width="12"
+            transform="rotate(-90 200 200)"
+            />
+        </svg>
+    </div>
+    
+    
+    <script src="timer.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

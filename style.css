@@ -21,7 +21,7 @@
 body {
 	font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica,
 		Arial, sans-serif;
-	background-color: #22d1ee;
+	background-color: #ffff;
 
 	height: 100vh;
 }
@@ -43,14 +43,14 @@ header {
 	font-size: 90px;
 	text-align: center;
 	background-color: transparent;
-	color: #ffff;
+	color: #8f8f8f;
 }
 .timer button {
 	border: none;
 	font-size: 36px;
 	cursor: pointer;
 	background-color: transparent;
-	color: #3d5af1;
+	color: #8f8f8f;
 }
 .timer button:focus {
 	outline: none;

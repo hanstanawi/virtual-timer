@@ -40,14 +40,14 @@ header {
 	display: block;
 	border: none;
 	width: 240px;
-	font-size: 90px;
+	font-size: 75px;
 	text-align: center;
 	background-color: transparent;
 	color: #8f8f8f;
 }
 .timer button {
 	border: none;
-	font-size: 36px;
+	font-size: 30px;
 	cursor: pointer;
 	background-color: transparent;
 	color: #8f8f8f;
